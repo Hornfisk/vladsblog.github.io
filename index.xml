@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VLAD&#39;S BLOG</title>
+    <link>https://vlads.blog/</link>
+    <description>Recent content on VLAD&#39;S BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Feb 2023 22:07:16 +0000</lastBuildDate><atom:link href="https://vlads.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello world!</title>
+      <link>https://vlads.blog/posts/post1/</link>
+      <pubDate>Wed, 15 Feb 2023 22:07:16 +0000</pubDate>
+      
+      <guid>https://vlads.blog/posts/post1/</guid>
+      <description>This is the random placeholder text for the first post.</description>
+    </item>
+    
+  </channel>
+</rss>
