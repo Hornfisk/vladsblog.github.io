@@ -9,7 +9,7 @@
 		
 	
 	
-	<title>VLAD&#39;S BLOG | Tags</title>
+	<title>VLAD&#39;S BLOG | Getting the hang of the workflow</title>
 	
 	
 	
@@ -18,15 +18,13 @@
 			
 		
 	
-	<meta name="description" content="VLAD&#39;S BLOG - tags - Tags"/>
+	<meta name="description" content="VLAD&#39;S BLOG - posts - Getting the hang of the workflow"/>
 	
 	
 	
 	
 
 	
-	
-		<link rel="alternate" type="application/rss+xml" href="https://vlads.blog/tags/index.xml" title="VLAD'S BLOG" />
 	
 
 	
@@ -157,46 +155,98 @@
 
 	
 	
-	
-	<h2>
-		<heading>Tags</heading>
-	</h2>
-	
-	
-	
-
-	
-	
-	
-	
-	
+	<heading>
+		<h2>Getting the hang of the workflow</h2>
+	</heading>
 	
 
 	<div></div>
 
 	
-	<div class="sk3-flex sk3-flex-center-h">
-		<sk3-pager></sk3-pager>
-	</div>
+	
+	
+	
+
+	
+	<content class="sk3-margin-v-full"><p>After many trials and tribulations, it appears that I&rsquo;ve managed to set up SSH authentication with GitHub, and also hardcoded main (instead of master) branch.</p>
+<p>The workflow currently looks something like this:</p>
+<p>&rsquo;&rsquo;'
+hugo newposts/[posttitle].md</p>
+<p>subl [posttitle].md
+&rsquo;''</p>
+<p>edit and save as needed, then from the root folder in the local blog repo:</p>
+<p>&rsquo;&rsquo;'
+git add .</p>
+<p>#checking if staged correctly
+git status</p>
+<p>#checking if pushing to the correct branch
+git branch</p>
+<p>#if yes, then:
+git commit -m &ldquo;comment here&rdquo;</p>
+<p>#and, at last:
+git push origin main
+&rsquo;''</p>
+<p>Now let&rsquo;s try and put this in practice and push and update that contains this actual post right here.</p>
+</content>
 
 	<div></div>
 
 	
-	<section class="sk3-flex sk3-flex-center-h">
+	<section class="sk3-margin-v-full">
+		
+		
+<div class="sk3-flex sk3-flex-center-h box sk3-margin-v-full">
+	
+<sk3-social>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+</sk3-social>
+
+</div>
+
+
+<div class="sk3-flex sk3-margin-v-full">
+
+	
+	
+
+	
+	<div class="sk3-flex-right">Update: 2023-02-16</div>
+
+</div>
+
+
+
+
+<h3 class="sk3-flex">
+	<a href="/posts/post1/">&lt;&lt; Hello world!</a> 
+	
+</h3>
+
+
+
+
+
+
+
+
 		
 	</section>
 
 	<div></div>
 
 	
-	<div class="sk3-flex sk3-flex-center-h">
-		<sk3-pager></sk3-pager>
-	</div>
-
 	
-	
-
-	<div></div>
 
 </div>
 

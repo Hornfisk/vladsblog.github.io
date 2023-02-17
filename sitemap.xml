@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://vlads.blog/posts/post1/</loc>
-    <lastmod>2023-02-15T22:07:16+00:00</lastmod>
+    <loc>https://vlads.blog/posts/post2/</loc>
+    <lastmod>2023-02-16T22:49:21+00:00</lastmod>
   </url><url>
     <loc>https://vlads.blog/posts/</loc>
-    <lastmod>2023-02-15T22:07:16+00:00</lastmod>
+    <lastmod>2023-02-16T22:49:21+00:00</lastmod>
   </url><url>
     <loc>https://vlads.blog/</loc>
+    <lastmod>2023-02-16T22:49:21+00:00</lastmod>
+  </url><url>
+    <loc>https://vlads.blog/posts/post1/</loc>
     <lastmod>2023-02-15T22:07:16+00:00</lastmod>
   </url><url>
     <loc>https://vlads.blog/categories/</loc>

@@ -6,7 +6,23 @@
     <description>Recent content on VLAD&#39;S BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Feb 2023 22:07:16 +0000</lastBuildDate><atom:link href="https://vlads.blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Feb 2023 22:49:21 +0000</lastBuildDate><atom:link href="https://vlads.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting the hang of the workflow</title>
+      <link>https://vlads.blog/posts/post2/</link>
+      <pubDate>Thu, 16 Feb 2023 22:49:21 +0000</pubDate>
+      
+      <guid>https://vlads.blog/posts/post2/</guid>
+      <description>After many trials and tribulations, it appears that I&amp;rsquo;ve managed to set up SSH authentication with GitHub, and also hardcoded main (instead of master) branch.
+The workflow currently looks something like this:
+&amp;rsquo;&amp;rsquo;&#39; hugo newposts/[posttitle].md
+subl [posttitle].md &amp;rsquo;&#39;&#39;
+edit and save as needed, then from the root folder in the local blog repo:
+&amp;rsquo;&amp;rsquo;&#39; git add .
+#checking if staged correctly git status
+#checking if pushing to the correct branch git branch</description>
+    </item>
+    
     <item>
       <title>Hello world!</title>
       <link>https://vlads.blog/posts/post1/</link>
