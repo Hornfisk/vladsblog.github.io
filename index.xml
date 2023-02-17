@@ -15,12 +15,8 @@
       <guid>https://vlads.blog/posts/post2/</guid>
       <description>After many trials and tribulations, it appears that I&amp;rsquo;ve managed to set up SSH authentication with GitHub, and also hardcoded main (instead of master) branch.
 The workflow currently looks something like this:
-&amp;rsquo;&amp;rsquo;&#39; hugo newposts/[posttitle].md
-subl [posttitle].md &amp;rsquo;&#39;&#39;
-edit and save as needed, then from the root folder in the local blog repo:
-&amp;rsquo;&amp;rsquo;&#39; git add .
-#checking if staged correctly git status
-#checking if pushing to the correct branch git branch</description>
+hugo newposts/[posttitle].md subl [posttitle].md edit and save as needed, then from the root folder in the local blog repo:
+git add . #checking if staged correctly git status #checking if pushing to the correct branch git branch #if yes, then: git commit -m &amp;#34;comment here&amp;#34; #and, at last: git push origin main Now let&amp;rsquo;s try and put this in practice and push and update that contains this actual post right here.</description>
     </item>
     
     <item>

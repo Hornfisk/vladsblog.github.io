@@ -170,23 +170,25 @@
 	
 	<content class="sk3-margin-v-full"><p>After many trials and tribulations, it appears that I&rsquo;ve managed to set up SSH authentication with GitHub, and also hardcoded main (instead of master) branch.</p>
 <p>The workflow currently looks something like this:</p>
-<p>&rsquo;&rsquo;'
-hugo newposts/[posttitle].md</p>
-<p>subl [posttitle].md
-&rsquo;''</p>
-<p>edit and save as needed, then from the root folder in the local blog repo:</p>
-<p>&rsquo;&rsquo;'
-git add .</p>
-<p>#checking if staged correctly
-git status</p>
-<p>#checking if pushing to the correct branch
-git branch</p>
-<p>#if yes, then:
-git commit -m &ldquo;comment here&rdquo;</p>
-<p>#and, at last:
+<pre tabindex="0"><code>hugo newposts/[posttitle].md
+
+subl [posttitle].md
+</code></pre><p>edit and save as needed, then from the root folder in the local blog repo:</p>
+<pre tabindex="0"><code>git add .
+
+#checking if staged correctly
+git status
+
+#checking if pushing to the correct branch
+git branch
+
+#if yes, then:
+git commit -m &#34;comment here&#34;
+
+#and, at last:
 git push origin main
-&rsquo;''</p>
-<p>Now let&rsquo;s try and put this in practice and push and update that contains this actual post right here.</p>
+</code></pre><p>Now let&rsquo;s try and put this in practice and push and update that contains this actual post right here.</p>
+<p>Moreover, to push ALL the changes to Git, I need to be in the root folder – in my case, /blog.</p>
 </content>
 
 	<div></div>
